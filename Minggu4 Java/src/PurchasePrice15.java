@@ -19,6 +19,7 @@ public class PurchasePrice15 {
         totalPrice=price*quantity;
         totalDiscount=totalPrice*discount;
         purchasePrice=totalPrice-totalDiscount;
+        System.out.println("Book Brand "+bookBrand);
         System.out.println("Total discount: "+totalDiscount);
         System.out.println("Final purchase price: "+purchasePrice);
     }
